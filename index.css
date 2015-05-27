@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+
+
+/* --------------------------------
+	ttl
+-------------------------------- */
+
+#ttl {
+	width: 100%;
+	height: 150px;
+	background: #FAFAFA url(../img/ttl.jpg) no-repeat center center;
+}
+
+#ttl h2 {
+	width: 980px;
+	height: 150px;
+	margin: 0 auto;
+	background: url(../img/ttl.jpg) no-repeat center center;
+	text-indent: -2000em;
+	display: block;
+}
+#pan {
+	float: right;
+	margin: 27px 0 30px 0;
+}
+#pan ul {
+	font-size: 12px;
+}
+#pan ul li {
+	float: left;
+}
+#pan ul li a {
+	text-decoration: underline;
+}
+#pan ul li:first-Child:after {
+	content: '>';
+	padding: 0 7px;
+}
+
+
+
+/* --------------------------------
+	section_01
+-------------------------------- */
+
+.section_01 .stxt {
+	padding: 0 0 35px 0;
+}
+.section_01 .img_01 {
+	padding: 0 30px 0 0;
+}
+.section_01 .clm {
+	width: 480px;
+	height: 310px;
+	background: url(../img/manage_bg.gif) no-repeat 0 0;
+	float: left;
+}
+.section_01 .clm#manage {
+	padding: 0 30px 0 0;
+}
+.section_01 .clm .ico {
+	width: 90px;
+	height: 98px;
+	padding: 49px 0 0 196px;
+}
+.section_01 .clm .ico img {
+	width: 0px;
+	height: 0px;
+	position: relative;
+	filter:alpha(opacity=0);
+	opacity:0.0;
+	left: 45px;
+	top: 90px;
+}
+.section_01 .clm p {
+	padding: 23px 0 0 45px;
+	filter:alpha(opacity=0);
+	opacity:0.0;
+}
+
+
+
+/* --------------------------------
+	section_02
+-------------------------------- */
+
+.section_02 {
+	height: 240px;
+	background: url(../img/img_01.jpg) no-repeat 543px 0;
+	margin: 40px 0 62px 50px;
+}
+.section_02 h3 {
+	padding: 30px 0 23px 0;
+}
+.section_02 p {
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+
+
+/* --------------------------------
+	section_03
+-------------------------------- */
+
+.section_03 {
+	padding: 0 0 36px 0;
+}
+.section_03 h3 {
+	margin: 0 0 -10px 0;
+	position: relative;
+	z-index: 10;
+}
+.sect {
+	position: relative;
+	width: 990px;
+	height: 330px;
+}
+.sect .no {
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding: 0 13px 50px 0;
+}
+.sect .no img {
+	width: 0px;
+	height: 0px;
+	position: relative;
+	opacity: 0.0;
+	left: 30px;
+	top: 60px;
+}
+.ie8 .sect .no img {
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+
+.sect h4 {
+	padding: 0 0 17px 0;
+	position: relative;
+	opacity: 0.0;
+	bottom: -30px;
+}
+.ie8 .sect h4 {
+	bottom:0px;
+}
+.sect p {
+	position: relative;
+	opacity: 0.0;
+	bottom: -20px;
+}
+.ie8 .sect p {
+	bottom:0px;
+}
+#philo_01 {
+	background: url(../img/philophy_01_bg.jpg) no-repeat 0 0;
+}
+#philo_01 .conts {
+	padding: 108px 0 0 46px;
+}
+#philo_02 {
+	background: url(../img/philophy_02_bg.jpg) no-repeat 0 0;
+}
+#philo_02 .conts {
+	padding: 108px 0 0 533px;
+}
+#philo_03 {
+	background: url(../img/philophy_03_bg.jpg) no-repeat 0 0;
+}
+#philo_03 .conts {
+	padding: 108px 0 0 46px;
+}
+#philo_04 {
+	background: url(../img/philophy_04_bg.jpg) no-repeat 0 0;
+}
+#philo_04 .conts {
+	padding: 108px 0 0 639px;
+}
+.no_anime .section_03 p {
+	top: 0px;
+	opacity: 1.0;
+}
